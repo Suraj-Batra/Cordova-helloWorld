@@ -35,7 +35,7 @@ function onmenubuttonPressed(e) {
 document.addEventListener('searchbutton', onsearchbutton, false);
 
 function onsearchbutton(e) {
-         alert('onsearchbutton function is called');
+         console.log('This is search button event');
 }
 
 
